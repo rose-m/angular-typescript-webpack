@@ -1,4 +1,4 @@
->Base on the great [angular2-webpack](https://github.com/preboot/angular2-webpack)
+>Based on the great [angular2-webpack](https://github.com/preboot/angular2-webpack)
 
 # angular-typescript-webpack
 
