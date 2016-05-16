@@ -1,25 +1,22 @@
-# angular2-webpack
+# angular-typescript-webpack
 
-[![Dependency Status](https://david-dm.org/preboot/angular2-webpack/status.svg)](https://david-dm.org/preboot/angular2-webpack#info=dependencies) [![devDependency Status](https://david-dm.org/preboot/angular2-webpack/dev-status.svg)](https://david-dm.org/preboot/angular2-webpack#info=devDependencies)
+A complete, yet simple, starter for Angular (**not 2**) with TypeScript using Webpack (including Bootstrap).
 
-**Note: This guide is following the Angular's [Style Guide](http://angular.io/styleguide) so I will be changing conventions here and there eventually. You are free to use your own conventions with this starter.**
+This seed repo serves as an Angular starter for anyone looking to get up and running
+with Angular and TypeScript fast. Using [Webpack](http://webpack.github.io/) for building
+our files and assisting with boilerplate. We're also using Protractor for our end-to-end story
+and Karma for our unit tests. By default, [Bootstrap](http://getbootstrap.com) is also included.
 
-A complete, yet simple, starter for Angular 2 using Webpack.
-
-This seed repo serves as an Angular 2 starter for anyone looking to get up and running with Angular 2 and TypeScript fast. Using [Webpack](http://webpack.github.io/) for building our files and assisting with boilerplate. We're also using Protractor for our end-to-end story and Karma for our unit tests.
-* Best practices in file and application organization for [Angular 2](https://angular.io/).
+* Best practices in file and application organization for [Angular](https://angularjs.org/).
 * Ready to go build system using [Webpack](https://webpack.github.io/docs/) for working with [TypeScript](http://www.typescriptlang.org/).
-* Easily add new components using [Angular 2 cli](https://github.com/angular/angular-cli).
-* Testing Angular 2 code with [Jasmine](http://jasmine.github.io/) and [Karma](http://karma-runner.github.io/).
+* Testing Angular code with [Jasmine](http://jasmine.github.io/) and [Karma](http://karma-runner.github.io/).
 * Coverage with [Istanbul](https://github.com/gotwarlost/istanbul)
-* End-to-end Angular 2 code using [Protractor](https://angular.github.io/protractor/).
+* End-to-end Angular code using [Protractor](https://angular.github.io/protractor/).
 * Stylesheets with [SASS](http://sass-lang.com/) (not required, it supports regular css too).
 * Error reported with [TSLint](http://palantir.github.io/tslint/) and [Codelyzer](https://github.com/mgechev/codelyzer).
 * Documentation with [TypeDoc](http://typedoc.io/).
 
 >Warning: Make sure you're using the latest version of Node.js and NPM
-
-[Is Angular 2 Ready Yet?](http://splintercode.github.io/is-angular-2-ready/)
 
 ### Quick start
 
@@ -27,7 +24,7 @@ This seed repo serves as an Angular 2 starter for anyone looking to get up and r
 
 ```bash
 # clone our repo
-$ git clone https://github.com/preboot/angular2-webpack.git my-app
+$ git clone https://github.com/rose-m/angular-typescript-webpack.git my-app
 
 # change directory to your app
 $ cd my-app
@@ -75,7 +72,8 @@ After you have installed all dependencies you can now run the app with:
 npm start
 ```
 
-It will start a local server using `webpack-dev-server` which will watch, build (in-memory), and reload for you. The port will be displayed to you as `http://localhost:8080`.
+It will start a local server using `webpack-dev-server` which will watch, build (in-memory),
+and reload for you. The port will be displayed to you as `http://localhost:8080`.
 
 ## Developing
 
@@ -121,17 +119,7 @@ It's simple, just install the lib via npm and import it in your code when you ne
 
 ### How to include external css files such as bootstrap.css ?
 
-Just install the lib and import the css files in [vendor.ts](https://github.com/preboot/angular2-webpack/blob/master/src/vendor.ts). For example this is how to do it with bootstrap:
-
-```sh
-npm install bootstrap@4.0.0 --save
-```
-
-And in [vendor.ts](https://github.com/preboot/angular2-webpack/blob/master/src/vendor.ts) add the following:
-
-```ts
-import 'bootstrap/dist/css/bootstrap.css';
-```
+Just install the lib and import the css files in [vendor.ts](https://github.com/rose-m/angular-typescript-webpack/blob/master/src/vendor.ts). See the file for use of bootstrap as an example.
 
 # TypeScript
 
