@@ -1,6 +1,10 @@
-// Angular 2
-import 'angular';
-import 'angular-ui-router/release/angular-ui-router';
+// jQuery
+import 'jquery';
 
-// Other vendors for example jQuery, Lodash or Bootstrap
+// Angular
+import 'angular';
+import 'angular-ui-router';
+
+import 'bootstrap-sass';
+
 // You can import js, ts, css, sass, ...
