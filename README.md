@@ -113,13 +113,15 @@ npm run docs
 
 No, Webpack will add all the needed Javascript bundles as script tags and all the CSS files as link tags. The advantage is that you don't need to modify the index.html every time you build your solution to update the hashes.
 
-#### How to include external angular 2 libraries ?
+#### How to include external libraries ?
 
-It's simple, just install the lib via npm and import it in your code when you need it. Don't forget that you need to configure some external libs in the [bootstrap](https://github.com/preboot/angular2-webpack/blob/master/src/bootstrap.ts) of your application.
+It's simple, just install the lib via npm and import it in your code when you need it.
+Don't forget that you need to reference some external libs in the
+[bootstrap](https://github.com/preboot/angular-typescript-webpack/blob/master/src/app/index.ts) of your application.
 
 ### How to include external css files such as bootstrap.css ?
 
-Just install the lib and import the css files in [vendor.ts](https://github.com/rose-m/angular-typescript-webpack/blob/master/src/vendor.ts). See the file for use of bootstrap as an example.
+Just install the lib and import the css files in [vendor.ts](https://github.com/rose-m/angular-typescript-webpack/blob/master/src/vendor.ts).
 
 # TypeScript
 
