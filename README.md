@@ -1,3 +1,5 @@
+>Base on the great [angular2-webpack](https://github.com/preboot/angular2-webpack)
+
 # angular-typescript-webpack
 
 A complete, yet simple, starter for Angular (**not 2**) with TypeScript using Webpack (including Bootstrap).
