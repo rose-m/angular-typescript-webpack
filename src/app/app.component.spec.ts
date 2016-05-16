@@ -11,7 +11,7 @@ describe('App', () => {
 
     it('should have an url', () => {
         const comp:AppComponent = <any> $componentController('app', null);
-        expect(comp.url).toBe('https://github.com/preboot/angular2-webpack');
+        expect(comp.url).toBe('https://github.com/rose-m/angular-typescript-webpack');
     });
 
 });

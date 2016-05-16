@@ -3,6 +3,7 @@ Error.stackTraceLimit = Infinity;
 require('es6-shim');
 require('angular');
 require('angular-mocks');
+require('angular-ui-router/release/angular-ui-router');
 
 /*
  Ok, this is kinda crazy. We can use the the context method on
